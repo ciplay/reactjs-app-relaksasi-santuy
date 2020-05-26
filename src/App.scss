@@ -1,0 +1,91 @@
+// variables
+$bgblack: black;
+$bgwhite: white;
+$bggrey: #B8B8B8;
+
+.App {
+  background-color: $bgblack;
+  text-align: center;
+}
+
+.App-row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.App-col {
+  padding: 0 !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-main-content-left {
+  background-color: $bggrey;
+  min-height: 70vh;
+  width: 65vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-content-right-corner {
+  background-color: $bgwhite;
+  min-height: 15vh;
+  width: 22vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-content-right {
+  background-color: $bgwhite;
+  width: 22vw;
+  .App-main-content-right {
+    background-color: $bggrey;
+    min-height: 70vh;
+    width: 19.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+
+    .form-login {
+      background-color: $bgwhite;
+      min-height: 60vh;
+      width: 18vw;
+    }
+  }
+}
+
+.App-footer {
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+

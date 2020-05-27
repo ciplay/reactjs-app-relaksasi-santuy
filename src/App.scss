@@ -74,6 +74,14 @@ $bggrey: #B8B8B8;
       background-color: $bgwhite;
       min-height: 60vh;
       width: 18vw;
+      .content {
+        background-color: $bgblack;
+        min-height: 24vh;
+        width: 15vw;
+        margin-top: 50px;
+        margin-left: 27px;
+        border-radius: 5px;
+      }
     }
   }
 }
@@ -86,6 +94,11 @@ $bggrey: #B8B8B8;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.input-margin {
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 

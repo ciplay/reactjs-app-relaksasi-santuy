@@ -9,11 +9,11 @@ const InputGroupComponent = (props) => {
                 <InputGroupAddon addonType="prepend">
                     <InputGroupText>@</InputGroupText>
                 </InputGroupAddon>
-                <Input placeholder="username" />
+                <Input placeholder="namamu" />
             </InputGroup>
             <br />
             <InputGroup size="lg">
-                <Input />
+                <Input placeholder="namamu" />
                 <InputGroupAddon addonType="append">
                     <InputGroupText>@gmail.com</InputGroupText>
                 </InputGroupAddon>

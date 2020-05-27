@@ -52,7 +52,9 @@ const CarouselComponent = (props) => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} width="1000" height="600" />
+        <div className="content-carousel">
+          <img src={item.src} alt={item.altText} width="1000" height="600" />
+        </div>
       </CarouselItem>
     );
   });

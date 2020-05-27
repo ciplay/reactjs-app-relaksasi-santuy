@@ -21,12 +21,14 @@ function LoginPage() {
             <Carousel />
           </div>
         </Col>
+        <div className="frame-button-left-layer1"><div className="frame-button-left-layer2"><div className="button-login-left" /></div></div>
         <div className="App-content-right">
           <div className="App-main-content-right">
             <div className="form-login">
               <div className="content">
                 <InputGroup />
               </div>
+              <div className="frame-button-right-layer1"><div className="frame-button-right-layer2" /></div>
             </div>
           </div>
         </div>

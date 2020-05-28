@@ -44,29 +44,40 @@ $bggrey: #B8B8B8;
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.frame-button-left-layer1 {
-  background-color: $bgblack;
-  height: 260px;
-  width: 130px;
-  border-top-left-radius: 140px;
-  border-bottom-left-radius: 140px;
-  border: 25px solid white;
-  border-right: 0;
-  margin-top: 393px;
-  .frame-button-left-layer2 {
-    background-color: $bgwhite;
-    min-height: 210px;
-    width: 105px;
-    border-top-left-radius: 115px;
-    border-bottom-left-radius: 115px;
-    border: 20px solid black;
+.wrapper-layer {
+  min-height: 60vh;
+  width: 10vw;
+  .block-space {
+    min-height: 24vh;
+    width: 8vw;
+    margin-top: 100px;
+    margin-left: 27px;
+  }
+  .frame-button-left-layer1 {
+    background-color: $bgblack;
+    height: 260px;
+    width: 130px;
+    border-top-left-radius: 140px;
+    border-bottom-left-radius: 140px;
+    border: 25px solid white;
     border-right: 0;
-    .button-login-left {
-      background: linear-gradient(180deg, rgba(9, 8, 8, 0.42) 0%, rgba(9, 8, 8, 0) 100%);
-      min-height: 165px;
-      width: 150px;
-      border-radius: 50%;
+    float: right;
+    margin-top: 52px;
+    .frame-button-left-layer2 {
+      background-color: $bgwhite;
+      min-height: 210px;
+      width: 105px;
+      border-top-left-radius: 115px;
+      border-bottom-left-radius: 115px;
+      border: 20px solid black;
+      border-right: 0;
+      .button-login-left {
+        background: linear-gradient(180deg, rgba(9, 8, 8, 0.42) 0%, rgba(9, 8, 8, 0) 100%);
+        min-height: 165px;
+        width: 150px;
+        border-radius: 50%;
+        border-right: 0;
+      }
     }
   }
 }
@@ -151,8 +162,8 @@ $bggrey: #B8B8B8;
     height: 600px;
   }
   :hover {
-    width: 1010px;
-    height: 610px;
+    width: 1020px;
+    height: 620px;
     border-radius: 5px;
   }
 }

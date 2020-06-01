@@ -10,7 +10,7 @@ function LoginPage() {
       <Row className="App-row">
         <Col>
           <header className="App-header">
-            Header
+            RELAKSASI SANTUY
         </header>
         </Col>
         <div className="App-content-right-corner" />
@@ -22,8 +22,10 @@ function LoginPage() {
           </div>
         </Col>
         <div className="wrapper-layer">
-          <div className="block-space" />
-          <div className="frame-button-left-layer1"><div className="frame-button-left-layer2"><div className="button-login-left" /></div></div>
+          <div className="wrapper-second">
+            <div className="block-space" />
+            <div className="frame-button-left-layer1"><div className="frame-button-left-layer2"><div className="button-login-left" /></div></div>
+          </div>
         </div>
         <div className="App-content-right">
           <div className="App-main-content-right">
@@ -39,7 +41,7 @@ function LoginPage() {
       <Row className="App-row">
         <Col>
           <footer className="App-footer">
-            Footer
+            &#169;Ciplay@2020
         </footer>
         </Col>
         <div className="App-content-right-corner" />

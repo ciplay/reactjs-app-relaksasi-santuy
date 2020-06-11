@@ -6,7 +6,6 @@ $bggrey: #B8B8B8;
 
 .App {
   background-color: $bgblack;
-  text-align: center;
 }
 
 .App-row {
@@ -18,22 +17,29 @@ $bggrey: #B8B8B8;
   padding: 0 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+// HEADER
 .App-header {
   min-height: 15vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+// FOOTER
+.App-footer {
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  font-size: 14px;
+  color: white;
+}
+
+// LEFT CONTENT LAYER
 .App-main-content-left {
   background-color: $bggrey;
   min-height: 70vh;
@@ -45,6 +51,7 @@ $bggrey: #B8B8B8;
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 .wrapper-layer {
   min-height: 70vh;
   width: 10vw;
@@ -55,6 +62,7 @@ $bggrey: #B8B8B8;
   .wrapper-second {
     min-height: 60vh;
     width: 10vw;
+    margin-top: 50px;
     .block-space {
       min-height: 24vh;
       width: 8vw;
@@ -89,8 +97,18 @@ $bggrey: #B8B8B8;
       }
     }
   }
+  
+  .split-circle {
+    height: 50px;
+    width: 95px;
+    align-self: flex-end;
+    // -moz-border-radius: 0 0 190px 0;
+    // -webkit-border-radius: 0 0 190px 0;
+    background:white;
+  }
 }
 
+// RIGHT CONTENT FOR TOP AND BOTTOM LAYER
 .App-content-right-corner {
   background-color: $bgwhite;
   min-height: 15vh;
@@ -103,6 +121,7 @@ $bggrey: #B8B8B8;
   color: black;
 }
 
+// RIGHT CONTENT LAYER
 .App-content-right {
   background-color: $bgwhite;
   width: 22vw;
@@ -120,6 +139,7 @@ $bggrey: #B8B8B8;
       background-color: $bgwhite;
       min-height: 60vh;
       width: 18vw;
+      margin-top: 50px;
       .content {
         background-color: $bgblack;
         min-height: 24vh;
@@ -147,22 +167,25 @@ $bggrey: #B8B8B8;
           border-left: 0;
         }
       }
-    
     }
     
+    .split-circle {
+      height: 50px;
+      width: 95px;
+      // -moz-border-radius: 0 0 190px 0;
+      // -webkit-border-radius: 0 0 190px 0;
+      background:black;
+    }
   }
 }
 
-.App-footer {
-  min-height: 15vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+// TEXT INPUT FIELD
+.input-margin {
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
+// Carousel
 .content-carousel {
   img {
     transition: height 0.5s;
@@ -176,10 +199,3 @@ $bggrey: #B8B8B8;
     border-radius: 5px;
   }
 }
-
-.input-margin {
-  margin-right: 15px;
-  margin-left: 15px;
-}
-
-
